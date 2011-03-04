@@ -50,6 +50,7 @@ class NSGalleryView {
 	public function add_styles () {
 		
 		wp_enqueue_style('jquery-galleryview-style', NSGV_DIR_URL . 'css/galleryview.css');
+		wp_enqueue_style('jquery-galleryview-suppl-style', NSGV_DIR_URL . 'css/supplemental.css');
 		
 	}
 	
