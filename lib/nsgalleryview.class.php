@@ -117,7 +117,7 @@ class NSGalleryView {
 		
 		foreach ( $attachments as $id => $attachment ) {
 			 
-			$output .= "<li>" . wp_get_attachment_image($id, $size, false, false) . "</li>";
+			$output .= "<li>" . wp_get_attachment_image($id, 'large', false, false) . "</li>";
 			
 		}
 
